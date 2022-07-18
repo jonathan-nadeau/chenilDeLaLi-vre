@@ -7,14 +7,34 @@
   "theme_color": "#555d40",
   "icons": [
     {
-      "src": "https://jonathan-nadeau.github.io/chenilDeLaLi-vre/icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/chenilDeLaLi-vre/images/icons/maskable-icon_x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "https://jonathan-nadeau.github.io/chenilDeLaLi-vre/icons/icon-512x512.png",
+      "src": "/chenilDeLaLi-vre/images/icons/maskable-icon_x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/chenilDeLaLi-vre/images/icons/maskable-icon_x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/chenilDeLaLi-vre/images/icons/maskable-icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/chenilDeLaLi-vre/images/icons/maskable-icon_x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }
