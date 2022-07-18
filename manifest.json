@@ -1,0 +1,20 @@
+{
+  "name": "Chenil de la Lièvre",
+  "short_name": "CDLL",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#e0e0e0",
+  "theme_color": "#555d40",
+  "icons": [
+    {
+      "src": "https://jonathan-nadeau.github.io/chenilDeLaLi-vre/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://jonathan-nadeau.github.io/chenilDeLaLi-vre/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
