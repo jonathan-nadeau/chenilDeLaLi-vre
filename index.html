@@ -13,8 +13,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="#e0e0e0" />
     <meta name="apple-mobile-web-app-title" content="Chenil de la Lièvre" />
-    <meta name="theme-color" content="#555d40">
+    <meta name="theme-color" content="#555d40" />
     <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png" />
+    <script>
+      // Register service worker.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js').then((reg) => {
+            console.log('Service worker registered.', reg);
+          });
+        });
+      }
+    </script>
   </head>
   <body>
     <nav>
@@ -62,5 +72,15 @@
         </p>
       </div>
     </footer>
+    <script>
+      // Register service worker.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js').then((reg) => {
+            console.log('Service worker registered.', reg);
+          });
+        });
+      }
+    </script>
   </body>
 </html>

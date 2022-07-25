@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chenil de la Lièvre</title>
+    <meta name="description" content="Site web offrant un service de vente, d'élevage et de dressage de Labrador" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#e0e0e0" />
+    <meta name="apple-mobile-web-app-title" content="Chenil de la Lièvre" />
+    <meta name="theme-color" content="#555d40" />
+    <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png" />
+    <script>
+      // Register service worker.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js').then((reg) => {
+            console.log('Service worker registered.', reg);
+          });
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Offline.html</h1>
+    <script>
+      // Register service worker.
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('service-worker.js').then((reg) => {
+            console.log('Service worker registered.', reg);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
